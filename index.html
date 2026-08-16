@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Para ti 🎂</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         FASE 1
+    ========================================== -->
+
+    <section id="pantalla-inicial">
+
+        <canvas id="particulas"></canvas>
+
+        <button id="btn-comenzar">
+            Comenzar
+        </button>
+
+    </section>
+
+
+
+    <!-- =========================================
+         FASE 2
+    ========================================== -->
+
+    <section id="pantalla-frases">
+
+        <div id="contenido-frase">
+
+            <div id="adorno-superior">
+                ✦
+            </div>
+
+            <div id="frase">
+                E hice esto para ti 👀
+            </div>
+
+            <div id="adorno-inferior">
+                ✦
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         PARTE 3
+         PASTEL INTERACTIVO
+    ========================================== -->
+
+    <section id="pantalla-pastel">
+
+        <div id="escena-pastel">
+
+
+            <!-- =====================================
+                 TITULO
+            ====================================== -->
+
+            <h1 id="titulo-pastel">
+                Un pequeño deseo...
+            </h1>
+
+
+            <div id="subtitulo-pastel">
+                Enciende la vela y pide tu deseo
+            </div>
+
+
+
+            <!-- =====================================
+                 ESCENARIO
+            ====================================== -->
+
+            <div id="escenario-pastel">
+
+
+                <!-- =================================
+                     PLATO
+                ================================== -->
+
+                <div id="plato-pastel"></div>
+
+
+
+                <!-- =================================
+                     PASTEL INTERACTIVO
+                ================================== -->
+
+                <div id="pastel-interactivo">
+
+
+                    <!-- =================================
+                         BETÚN SUPERIOR
+                    ================================== -->
+
+                    <div id="betun-interactivo">
+
+                        <span class="goteo goteo-1"></span>
+
+                        <span class="goteo goteo-2"></span>
+
+                        <span class="goteo goteo-3"></span>
+
+                        <span class="goteo goteo-4"></span>
+
+                        <span class="goteo goteo-5"></span>
+
+
+                        <!-- CHISPAS -->
+
+                        <div id="chispas-pastel">
+
+                            <span class="chispa"></span>
+
+                            <span class="chispa"></span>
+
+                            <span class="chispa"></span>
+
+                            <span class="chispa"></span>
+
+                            <span class="chispa"></span>
+
+                            <span class="chispa"></span>
+
+                            <span class="chispa"></span>
+
+                            <span class="chispa"></span>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- =================================
+                         CEREZA
+                         Se conserva en la estructura,
+                         pero CSS la mantiene oculta.
+                    ================================== -->
+
+                    <div id="cereza-pastel"></div>
+
+                    <div id="rabito-pastel"></div>
+
+
+
+                    <!-- =================================
+                         VELA
+                    ================================== -->
+
+                    <div id="vela-wrap">
+
+
+                        <!-- LLAMA -->
+
+                        <div
+                            id="flama"
+                            class="flama">
+                        </div>
+
+
+                        <!-- MECHA -->
+
+                        <div class="mecha"></div>
+
+
+                        <!-- VELA -->
+
+                        <div class="vela"></div>
+
+
+                    </div>
+
+
+
+                    <!-- =================================
+                         CAPA SUPERIOR
+                    ================================== -->
+
+                    <div
+                        class="capa-pastel-interactiva capa-3">
+                    </div>
+
+
+
+                    <!-- =================================
+                         CAPA CENTRAL
+                    ================================== -->
+
+                    <div
+                        class="capa-pastel-interactiva capa-2">
+                    </div>
+
+
+
+                    <!-- =================================
+                         CAPA INFERIOR
+                    ================================== -->
+
+                    <div
+                        class="capa-pastel-interactiva capa-1">
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- =====================================
+                 CONTROLES
+            ====================================== -->
+
+            <div id="controles-pastel">
+
+
+                <button
+                    id="btn-encender"
+                    type="button">
+
+                    Encender vela
+
+                </button>
+
+
+
+                <button
+                    id="btn-soplar"
+                    class="boton-secundario"
+                    type="button"
+                    disabled>
+
+                    Soplar
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- =====================================
+                 MENSAJE
+            ====================================== -->
+
+            <div id="mensaje-pastel"></div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         JAVASCRIPT
+    ========================================== -->
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
